@@ -9,7 +9,7 @@ user-invocable: true
 when_to_use: the user asks for content research, competitor tracking, or trend discovery without managing Google credentials. Supports curl queries and the bundled Python client with locale and filter controls
 ---
 
-# OpenClaw YouTube SERP Scout
+# YouTube SERP Scout
 
 Runtime-focused release bundle for YouTube search, competitor tracking, and trend discovery through the AISA relay.
 

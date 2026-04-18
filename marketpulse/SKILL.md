@@ -1,12 +1,12 @@
 ---
 name: marketpulse
 description: 'Query real-time and historical financial data across equities and crypto—prices, market moves, metrics, and trends for analysis, alerts, and reporting. Use when: the user needs market data, stock analysis, watchlists, or portfolio workflows.'
-homepage: https://openclaw.ai
+homepage: https://aisa.one
 allowed-tools: Read Bash Grep
 when_to_use: the user needs market data, stock analysis, watchlists, or portfolio workflows
 ---
 
-# OpenClaw Market 📊
+# Market 📊
 
 **Complete market data for autonomous agents. Powered by AIsa.**
 

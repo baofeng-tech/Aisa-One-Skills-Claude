@@ -1,12 +1,14 @@
 ---
 name: openclaw-search
 description: 'Intelligent search for agents. Multi-source retrieval with confidence scoring - web, academic, and Tavily in one unified API. Use when: the user needs web search, research, source discovery, or content extraction.'
-homepage: https://openclaw.ai
+homepage: https://aisa.one
 allowed-tools: Read Bash Grep
 when_to_use: the user needs web search, research, source discovery, or content extraction
 ---
 
-# OpenClaw Search 🔍
+> Release note: This package is published for Claude Code. References to OpenClaw below describe the original source workflow, a companion runtime, or compatibility guidance unless the skill is explicitly about OpenClaw itself.
+
+# Search 🔍
 
 **Intelligent search for autonomous agents. Powered by AIsa.**
 

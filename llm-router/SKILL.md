@@ -1,12 +1,12 @@
 ---
 name: llm-router
 description: 'Unified LLM Gateway - One API for 70+ AI models. Route to GPT, Claude, Gemini, Qwen, Deepseek, Grok and more with a single API key. Use when: the user needs model routing, provider setup, or Chinese LLM access guidance.'
-homepage: https://openclaw.ai
+homepage: https://aisa.one
 allowed-tools: Read Bash Grep
 when_to_use: the user needs model routing, provider setup, or Chinese LLM access guidance
 ---
 
-# OpenClaw LLM Router 🧠
+# LLM Router 🧠
 
 **Unified LLM Gateway for autonomous agents. Powered by AIsa.**
 
@@ -247,7 +247,7 @@ curl -X POST "https://api.aisa.one/v1/models/gemini-2.0-flash:generateContent" \
 
 ## Python Client
 
-### Installation
+### Setupation
 
 No installation required - uses standard library only.
 

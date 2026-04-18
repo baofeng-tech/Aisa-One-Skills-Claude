@@ -1,12 +1,12 @@
 ---
 name: twitter-command-center-search-post
 description: 'Searches and reads X (Twitter): profiles, timelines, mentions, followers, tweet search, trends, lists, communities, and Spaces. Publishes posts after the user completes OAuth in the browser. Use when the user asks about Twitter/X data, social listening, or posting without sharing account passwords.'
-homepage: https://openclaw.ai
+homepage: https://aisa.one
 allowed-tools: Read Bash Grep
 when_to_use: the user asks about Twitter/X data, social listening, or posting without sharing account passwords
 ---
 
-# OpenClaw Twitter 🐦
+# Twitter 🐦
 
 **Twitter/X data access and automation for autonomous agents. Powered by AIsa.**
 

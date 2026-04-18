@@ -3,14 +3,16 @@ name: last30days
 description: 'Research the last 30 days across Reddit, X/Twitter, YouTube, TikTok, Instagram, Hacker News, Polymarket, GitHub, and web search. Use when: you need recent social research, company updates, person profiles, competitor comparisons, launch reactions, or trend scans. Supports AISA-powered planning, clustering, reranking, and JSON output.'
 version: 1.0.4
 license: MIT
-homepage: https://github.com/AIsa-team/agent-skills
 repository: https://github.com/AIsa-team/agent-skills
 author: mvanhorn
 argument-hint: last30days OpenAI Agents SDK, last30days Peter Steinberger, last30days OpenClaw
+homepage: https://github.com/AIsa-team/agent-skills
 allowed-tools: Bash, Read, Write, AskUserQuestion, WebSearch
 user-invocable: true
 when_to_use: you need recent social research, company updates, person profiles, competitor comparisons, launch reactions, or trend scans. Supports AISA-powered planning, clustering, reranking, and JSON output
 ---
+
+> Release note: This package is published for Claude Code. References to OpenClaw below describe the original source workflow, a companion runtime, or compatibility guidance unless the skill is explicitly about OpenClaw itself.
 
 # last30days
 

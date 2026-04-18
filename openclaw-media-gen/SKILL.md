@@ -1,12 +1,12 @@
 ---
 name: openclaw-media-gen
 description: 'Generate images & videos with AIsa. Gemini 3 Pro Image (image) + Qwen Wan 2.6 (video) via one API key. Use when: the user needs AI image or video generation workflows.'
-homepage: https://openclaw.ai
+homepage: https://aisa.one
 allowed-tools: Read Bash Grep
 when_to_use: the user needs AI image or video generation workflows
 ---
 
-# OpenClaw Media Gen 🎬
+# Media Gen 🎬
 
 用 AIsa API 一把钥匙生成**图片**与**视频**：
 

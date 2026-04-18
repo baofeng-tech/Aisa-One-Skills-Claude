@@ -17,6 +17,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### aisa-provider
@@ -27,6 +28,8 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
+- Change: rewrote 3 markdown file(s) to reduce OpenClaw-specific release wording
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### aisa-tavily
@@ -38,6 +41,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### aisa-twitter-api
@@ -48,6 +52,8 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: disabled browser auto-open in scripts/twitter_oauth_client.py
+- Change: rewrote 1 markdown file(s) to reduce OpenClaw-specific release wording
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: OAuth flow still requires the user to open the returned authorization URL manually.
 
@@ -59,6 +65,8 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: disabled browser auto-open in scripts/twitter_oauth_client.py
+- Change: rewrote 1 markdown file(s) to reduce OpenClaw-specific release wording
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: OAuth flow still requires the user to open the returned authorization URL manually.
 
@@ -70,6 +78,8 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: disabled browser auto-open in scripts/twitter_oauth_client.py
+- Change: rewrote 1 markdown file(s) to reduce OpenClaw-specific release wording
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: OAuth flow still requires the user to open the returned authorization URL manually.
 
@@ -81,6 +91,8 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: disabled browser auto-open in scripts/twitter_oauth_client.py
+- Change: rewrote 1 markdown file(s) to reduce OpenClaw-specific release wording
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: OAuth flow still requires the user to open the returned authorization URL manually.
 
@@ -91,6 +103,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Description: Search YouTube videos, channels, and playlists through the AIsa YouTube relay with one API key. Use when the user asks for YouTube discovery, query expansion, or pagination without managing Google credentials.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
+- Change: replaced source README with a Claude-oriented release README
 
 ### aisa-youtube-serp-scout
 
@@ -99,6 +112,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Description: Search YouTube videos, channels, and trends through the AIsa YouTube SERP client. Use when the user asks for content research, competitor tracking, or trend discovery without managing Google credentials.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### cn-llm
@@ -110,6 +124,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### last30days
@@ -123,6 +138,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: ensured description carries explicit trigger phrasing for search and selection
 - Change: switched default local storage to repo-local path in scripts/lib/env.py
 - Change: updated config path messaging in scripts/lib/ui.py
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: Large runtime surface remains; verify Python 3.12+ and AISA-only flow before public publishing.
 
@@ -137,6 +153,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: ensured description carries explicit trigger phrasing for search and selection
 - Change: switched default local storage to repo-local path in scripts/lib/env.py
 - Change: updated config path messaging in scripts/lib/ui.py
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: Large runtime surface remains; verify Python 3.12+ and AISA-only flow before public publishing.
 
@@ -149,6 +166,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### market
@@ -160,6 +178,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### marketpulse
@@ -171,6 +190,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### media-gen
@@ -182,6 +202,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### multi-search
@@ -192,6 +213,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### openclaw-aisa-youtube-aisa
@@ -202,6 +224,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### openclaw-media-gen
@@ -213,6 +236,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### openclaw-search
@@ -224,6 +248,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### openclaw-twitter
@@ -235,6 +260,8 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
 - Change: disabled browser auto-open in scripts/twitter_oauth_client.py
+- Change: rewrote 1 markdown file(s) to reduce OpenClaw-specific release wording
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: OAuth flow still requires the user to open the returned authorization URL manually.
 
@@ -247,6 +274,8 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
 - Change: disabled browser auto-open in scripts/twitter_oauth_client.py
+- Change: rewrote 2 markdown file(s) to reduce OpenClaw-specific release wording
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: OAuth flow still requires the user to open the returned authorization URL manually.
 
@@ -259,6 +288,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### perplexity-research
@@ -269,6 +299,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### perplexity-search
@@ -279,6 +310,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### prediction-market
@@ -290,6 +322,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### prediction-market-arbitrage
@@ -301,6 +334,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### prediction-market-arbitrage-api
@@ -311,6 +345,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### prediction-market-arbitrage-zh
@@ -322,6 +357,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### prediction-market-data
@@ -332,6 +368,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### prediction-market-data-zh
@@ -343,6 +380,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### scholar-search
@@ -353,6 +391,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### search
@@ -364,6 +403,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### smart-search
@@ -374,6 +414,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### stock-analysis
@@ -383,6 +424,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Description: Analyze stocks and cryptocurrencies with 8-dimension scoring via AIsa API. Provides BUY/HOLD/SELL signals with confidence levels, entry/target/stop prices, and risk flags. Supports single or multi-ticker analysis with optional fast mode and JSON output. Use when the user asks to analyze a stock, check a ticker, or compare investments.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: inferred allowed-tools for Claude Code compatibility
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### stock-dividend
@@ -392,6 +434,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Description: Analyze dividend metrics for stocks via AIsa API. Provides yield, payout ratio, growth CAGR, safety score (0-100), income rating, and Dividend Aristocrat/King status. Use when the user asks about dividends, income investing, or dividend safety.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: inferred allowed-tools for Claude Code compatibility
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### stock-hot
@@ -401,6 +444,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Description: Hot Scanner — find the most trending and high-momentum stocks and crypto right now via AIsa API. Top gainers, losers, most active by volume, crypto highlights, news catalysts, and top 5 watchlist picks. Use when the user asks about trending stocks, what's hot, market movers, or momentum plays.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: inferred allowed-tools for Claude Code compatibility
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### stock-portfolio
@@ -411,6 +455,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: switched default local storage to repo-local path in scripts/portfolio.py
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: Local persistence is still present, but defaults are repo-local instead of home-directory paths.
 
@@ -421,6 +466,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Description: Rumor Scanner — find early signals including M&A rumors, insider activity, analyst upgrades/downgrades, social whispers, and SEC/regulatory activity via AIsa API. Ranked by impact score. Use when the user asks about rumors, insider trading, M&A activity, analyst changes, or early market signals.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: inferred allowed-tools for Claude Code compatibility
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### stock-watchlist
@@ -431,6 +477,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: switched default local storage to repo-local path in scripts/watchlist.py
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: Local persistence is still present, but defaults are repo-local instead of home-directory paths.
 
@@ -442,6 +489,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### tavily-search
@@ -452,6 +500,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### twitter
@@ -463,6 +512,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: disabled browser auto-open in scripts/twitter_oauth_client.py
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: OAuth flow still requires the user to open the returned authorization URL manually.
 
@@ -475,6 +525,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: disabled browser auto-open in scripts/twitter_oauth_client.py
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: OAuth flow still requires the user to open the returned authorization URL manually.
 
@@ -487,6 +538,8 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: disabled browser auto-open in scripts/twitter_oauth_client.py
+- Change: rewrote 1 markdown file(s) to reduce OpenClaw-specific release wording
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: OAuth flow still requires the user to open the returned authorization URL manually.
 
@@ -499,6 +552,8 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: disabled browser auto-open in scripts/twitter_oauth_client.py
+- Change: rewrote 2 markdown file(s) to reduce OpenClaw-specific release wording
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: OAuth flow still requires the user to open the returned authorization URL manually.
 
@@ -511,6 +566,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### web-search
@@ -521,6 +577,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### x-intelligence-automation
@@ -531,6 +588,8 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: disabled browser auto-open in scripts/twitter_oauth_client.py
+- Change: rewrote 1 markdown file(s) to reduce OpenClaw-specific release wording
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: OAuth flow still requires the user to open the returned authorization URL manually.
 
@@ -543,6 +602,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
 ### youtube-search
@@ -554,3 +614,4 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: ensured description carries explicit trigger phrasing for search and selection
+- Change: replaced source README with a Claude-oriented release README

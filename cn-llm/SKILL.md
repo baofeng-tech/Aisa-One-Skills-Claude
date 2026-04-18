@@ -1,12 +1,12 @@
 ---
 name: cn-llm
 description: 'China LLM Gateway - Unified interface for Chinese LLMs including Qwen, DeepSeek, GLM, Baichuan. OpenAI compatible, one API Key for all models. Use when: the user needs model routing, provider setup, or Chinese LLM access guidance.'
-homepage: https://openclaw.ai
+homepage: https://aisa.one
 allowed-tools: Read Bash Grep
 when_to_use: the user needs model routing, provider setup, or Chinese LLM access guidance
 ---
 
-# OpenClaw CN-LLM 🐉
+# CN-LLM 🐉
 
 **China LLM Unified Gateway. Powered by AIsa.**
 

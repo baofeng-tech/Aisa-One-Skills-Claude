@@ -5,6 +5,8 @@ allowed-tools: Read
 when_to_use: the user needs X/Twitter research, monitoring, posting, or engagement workflows
 ---
 
+> Release note: This package is published for Claude Code. References to OpenClaw below describe the original source workflow, a companion runtime, or compatibility guidance unless the skill is explicitly about OpenClaw itself.
+
 # YouTube Search (via AIsa)
 
 Search YouTube videos, channels, and playlists through AIsa's unified API. No Google API key or OAuth setup needed — just your AIsa API key.

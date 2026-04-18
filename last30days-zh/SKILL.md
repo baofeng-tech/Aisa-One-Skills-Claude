@@ -3,14 +3,16 @@ name: last30days-zh
 description: 聚合最近 30 天的 Reddit、X/Twitter、YouTube、TikTok、Instagram、Hacker News、Polymarket、GitHub 和 web search 结果。触发条件：当用户需要 recent social research、人物近况、公司动态、竞品对比、发布反应、趋势扫描时使用。支持 AISA 规划、聚类、重排和 JSON 输出。
 version: 1.0.4
 license: MIT
-homepage: https://github.com/AIsa-team/agent-skills
 repository: https://github.com/AIsa-team/agent-skills
 author: mvanhorn
 argument-hint: last30days OpenAI Agents SDK, last30days Peter Steinberger, last30days OpenClaw vs Codex
+homepage: https://github.com/AIsa-team/agent-skills
 allowed-tools: Bash, Read, Write, AskUserQuestion, WebSearch
 user-invocable: true
 when_to_use: 当用户需要 recent social research、人物近况、公司动态、竞品对比、发布反应、趋势扫描时使用。支持 AISA 规划、聚类、重排和 JSON 输出
 ---
+
+> Release note: This package is published for Claude Code. References to OpenClaw below describe the original source workflow, a companion runtime, or compatibility guidance unless the skill is explicitly about OpenClaw itself.
 
 # last30days 中文版
 
