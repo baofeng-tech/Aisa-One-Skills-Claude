@@ -6,7 +6,7 @@ allowed-tools: Read Bash Grep
 when_to_use: the user needs market data, stock analysis, watchlists, or portfolio workflows
 ---
 
-# Market 📊
+# AIsa MarketPulse 📊
 
 **Complete market data for autonomous agents. Powered by AIsa.**
 

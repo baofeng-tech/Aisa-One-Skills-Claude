@@ -6,7 +6,7 @@ allowed-tools: Read Bash Grep
 when_to_use: the user asks about Twitter/X data, social listening, or posting without sharing account passwords
 ---
 
-# Twitter 🐦
+# AIsa Twitter Command Center 🐦
 
 **Twitter/X data access and automation for autonomous agents. Powered by AIsa.**
 

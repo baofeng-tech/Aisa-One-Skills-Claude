@@ -538,7 +538,6 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: disabled browser auto-open in scripts/twitter_oauth_client.py
-- Change: rewrote 1 markdown file(s) to reduce OpenClaw-specific release wording
 - Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: OAuth flow still requires the user to open the returned authorization URL manually.
@@ -552,7 +551,6 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
 - Change: disabled browser auto-open in scripts/twitter_oauth_client.py
-- Change: rewrote 2 markdown file(s) to reduce OpenClaw-specific release wording
 - Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 - Residual risk: OAuth flow still requires the user to open the returned authorization URL manually.

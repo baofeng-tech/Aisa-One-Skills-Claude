@@ -6,7 +6,7 @@ allowed-tools: Read Bash Grep
 when_to_use: the user needs model routing, provider setup, or Chinese LLM access guidance
 ---
 
-# LLM Router 🧠
+# AIsa LLM Router 🧠
 
 **Unified LLM Gateway for autonomous agents. Powered by AIsa.**
 
