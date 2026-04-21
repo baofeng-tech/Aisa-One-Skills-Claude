@@ -1,8 +1,8 @@
-# AIsa Twitter
+# Twitter
 
 Release-ready Claude Code skill package generated from `targetSkills/twitter`.
 
-- Skill name: `aisa-twitter`
+- Skill name: `twitter`
 - Entry point: `SKILL.md`
 - Runtime assets: `scripts/`, `references/`, `assets/` when present
 

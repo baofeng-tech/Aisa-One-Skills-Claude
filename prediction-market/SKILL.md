@@ -1,7 +1,6 @@
 ---
-name: aisa-prediction-market-data
+name: prediction-market
 description: 'Prediction markets data - Polymarket, Kalshi markets, prices, positions, and trades. Use when: the user needs market data, stock analysis, watchlists, or portfolio workflows.'
-homepage: https://aisa.one
 allowed-tools: Read Bash Grep
 when_to_use: the user needs market data, stock analysis, watchlists, or portfolio workflows
 ---

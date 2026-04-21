@@ -1,7 +1,6 @@
 ---
-name: aisa-search
+name: search
 description: 'Intelligent search for agents. Multi-source retrieval across web, scholar, Tavily, and Perplexity Sonar models. Use when: the user needs web search, research, source discovery, or content extraction.'
-homepage: https://aisa.one
 allowed-tools: Read Bash Grep
 when_to_use: the user needs web search, research, source discovery, or content extraction
 ---
