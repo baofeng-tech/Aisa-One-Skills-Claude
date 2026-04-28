@@ -1,6 +1,7 @@
 ---
 name: aisa-twitter-post-engage
 description: Search X/Twitter profiles, tweets, trends, and approved engagement actions through the AIsa relay. Use when the user asks for Twitter/X research, posting, likes, follows, or related workflows without sharing passwords.
+version: 1.0.3
 license: Apache-2.0
 allowed-tools: Read Bash Grep
 when_to_use: the user asks for Twitter/X research, posting, likes, follows, or related workflows without sharing passwords
