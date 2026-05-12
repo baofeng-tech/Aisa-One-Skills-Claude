@@ -49,7 +49,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 
 - Source: `targetSkills/aisa-twitter-api`
 - Output: `claude-release/aisa-twitter-api`
-- Description: Twitter/X command center for research, monitoring, watchlists, and approved posting through AIsa. Use when: the user needs one flagship skill for trend tracking, competitor monitoring, or publish-ready Twitter workflows without sharing passwords. Supports search, watchlists, and OAuth-gated posting.
+- Description: Twitter/X research, monitoring, watchlists, and OAuth-approved posting through AIsa. Use when: the user needs one flagship Twitter skill for trend tracking, competitor monitoring, timeline analysis, or approved posting without sharing passwords. Supports search, watchlists, relay-based reads, and OAuth-gated text or media posting.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
@@ -140,7 +140,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 
 - Source: `targetSkills/crypto-market-data`
 - Output: `claude-release/crypto-market-data`
-- Description: Query real-time and historical cryptocurrency market data via CoinGecko — simple prices, coin details, historical charts, OHLC candles, token prices by contract address, market-cap rankings, exchange data and tickers, categories, trending searches, and crypto news. Use for crypto research, price tracking, on-chain token lookup, portfolio analysis, and market-cap screening. Use when: the user needs market data, stock analysis, watchlists, or portfolio workflows.
+- Description: Query real-time and historical cryptocurrency market data via CoinGecko through AIsa — simple prices, coin details, historical charts, OHLC candles, token prices by contract address, market-cap rankings, exchange data and tickers, categories, trending searches, and crypto news. Use when you need crypto market research, price tracking, token lookup, portfolio analysis, or market-cap screening. Use when: the user needs market data, stock analysis, dividend research, or read-only financial data workflows.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
@@ -205,7 +205,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 
 - Source: `targetSkills/marketpulse`
 - Output: `claude-release/marketpulse`
-- Description: Query real-time and historical financial data for equities—prices, news, financial statements, metrics, analyst estimates, insider and institutional activity, SEC filings, earnings press releases, segmented revenues, stock screening, and macro interest rates. Use when: the user needs market data, stock analysis, watchlists, or portfolio workflows.
+- Description: Query real-time and historical equity market data—prices, news, financial statements, metrics, analyst estimates, insider and institutional activity, SEC filings, earnings press releases, segmented revenues, stock screening, and macro interest rates. Use when you need broad public-market research from a single AIsa-backed skill. Use when: the user needs market data, stock analysis, dividend research, or read-only financial data workflows.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
@@ -217,7 +217,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 
 - Source: `targetSkills/media-gen`
 - Output: `claude-release/media-gen`
-- Description: Generate images and videos with AIsa. Four image models (Google Gemini 3 Pro Image, Alibaba Wan 2.7 image + image-pro, ByteDance Seedream) and four Wan video variants (wan2.6/2.7 × t2v/i2v). One API key; the client routes each model to the correct endpoint automatically. Use when: the user needs AI image or video generation workflows.
+- Description: Generate images and videos with AIsa. Supports Gemini, Wan, and Seedream image generation plus Wan text-to-video and image-to-video models. One API key; the bundled client routes each model to the correct endpoint automatically. Use when: you need a neutral AIsa media-generation skill that spans multiple model families without changing credentials or request flow.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
@@ -241,11 +241,10 @@ This report summarizes structural cleanup and residual publishing risk for the g
 
 - Source: `targetSkills/multi-source-search`
 - Output: `claude-release/multi-source-search`
-- Description: Confidence-scored multi-source retrieval across web, scholar, Tavily, and Perplexity-backed research. Use when: the user needs cross-source verification, consensus checks, or one report that compares multiple search surfaces. Supports parallel retrieval, confidence scoring, and synthesis-ready outputs.
+- Description: Multi-source search for agents across web, scholar, Tavily, and Perplexity Sonar endpoints. Use when you need structured retrieval, citation-backed answers, or broad research coverage from one AIsa API key.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
-- Change: ensured description carries explicit trigger phrasing for search and selection
 - Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
@@ -366,11 +365,10 @@ This report summarizes structural cleanup and residual publishing risk for the g
 
 - Source: `targetSkills/prediction-market-arbitrage`
 - Output: `claude-release/prediction-market-arbitrage`
-- Description: Find and analyze arbitrage opportunities across prediction markets like Polymarket and Kalshi. Use when: the user needs market data, stock analysis, watchlists, or portfolio workflows.
+- Description: Find and analyze arbitrage opportunities across prediction markets like Polymarket and Kalshi. Use when you need to match equivalent markets, compare prices, and verify whether a spread looks actionable.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
-- Change: ensured description carries explicit trigger phrasing for search and selection
 - Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
@@ -401,11 +399,10 @@ This report summarizes structural cleanup and residual publishing risk for the g
 
 - Source: `targetSkills/prediction-market-data`
 - Output: `claude-release/prediction-market-data`
-- Description: Prediction markets data - Polymarket, Kalshi markets, prices, positions, and trades. Use when: the user needs market data, stock analysis, watchlists, or portfolio workflows.
+- Description: Access prediction market data from Polymarket and Kalshi, including markets, prices, trades, orderbooks, positions, and cross-platform market matching. Use when you need current odds, historical market data, or wallet-level prediction market analysis.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
-- Change: ensured description carries explicit trigger phrasing for search and selection
 - Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
@@ -472,10 +469,11 @@ This report summarizes structural cleanup and residual publishing risk for the g
 
 - Source: `targetSkills/stock-dividend`
 - Output: `claude-release/stock-dividend`
-- Description: Analyze dividend metrics for stocks via AIsa API. Provides yield, payout ratio, growth CAGR, safety score (0-100), income rating, and Dividend Aristocrat/King status. Use when the user asks about dividends, income investing, or dividend safety.
+- Description: Analyze read-only dividend metrics for stocks via AIsa API. Provides yield, payout ratio, growth CAGR, safety score, income rating, and Dividend Aristocrat/King status without placing trades, making purchases, or managing brokerage accounts. Use when: the user needs market data, stock analysis, dividend research, or read-only financial data workflows.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
+- Change: ensured description carries explicit trigger phrasing for search and selection
 - Change: replaced source README with a Claude-oriented release README
 - Change: copied runtime scripts/references only
 
@@ -522,9 +520,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
-- Change: switched default local storage to repo-local path in scripts/watchlist.py
 - Change: replaced source README with a Claude-oriented release README
-- Change: copied runtime scripts/references only
 - Residual risk: Local persistence is still present, but defaults are repo-local instead of home-directory paths.
 
 ### tavily-extract
@@ -568,7 +564,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 
 - Source: `targetSkills/twitter-autopilot`
 - Output: `claude-release/twitter-autopilot`
-- Description: Searches and reads X (Twitter): profiles, timelines, mentions, followers, tweet search, trends, lists, communities, and Spaces. Publishes posts, likes/unlikes tweets, and follows/unfollows users after the user completes OAuth in the browser. Use when the user asks about Twitter/X data, social listening, posting, or interacting with tweets/users without sharing account passwords.
+- Description: Searches and reads X (Twitter): profiles, timelines, mentions, followers, tweet search, trends, lists, communities, and Spaces. Publishes posts, likes/unlikes tweets, and follows/unfollows users after the user completes OAuth in the browser. Use when the user asks for Twitter/X research, social listening, posting, or account interactions without sharing account passwords.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility
@@ -668,7 +664,7 @@ This report summarizes structural cleanup and residual publishing risk for the g
 
 - Source: `targetSkills/youtube-serp`
 - Output: `claude-release/youtube-serp`
-- Description: YouTube SERP for agents. Search top-ranking videos, channels, and trends for content research and competitor tracking. Use when: the user needs YouTube search, trend discovery, channel research, or SERP analysis.
+- Description: Search YouTube SERP results through AISA for video research, channel discovery, trend checking, and competitor tracking. Use when: you need ranked YouTube results for a query, optionally filtered by country or language.
 - Change: rewrote SKILL.md frontmatter for Claude-friendly search and invocation
 - Change: stripped platform-specific metadata from release frontmatter
 - Change: inferred allowed-tools for Claude Code compatibility

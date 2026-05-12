@@ -1,37 +1,18 @@
 ---
 name: multi-source-search
-description: 'Confidence-scored multi-source retrieval across web, scholar, Tavily, and Perplexity-backed research. Use when: the user needs cross-source verification, consensus checks, or one report that compares multiple search surfaces. Supports parallel retrieval, confidence scoring, and synthesis-ready outputs.'
-version: 1.0.1
+description: Multi-source search for agents across web, scholar, Tavily, and Perplexity Sonar endpoints. Use when you need structured retrieval, citation-backed answers, or broad research coverage from one AIsa API key.
 license: MIT
 allowed-tools: Read Bash Grep
-when_to_use: the user needs cross-source verification, consensus checks, or one report that compares multiple search surfaces. Supports parallel retrieval, confidence scoring, and synthesis-ready outputs
+when_to_use: you need structured retrieval, citation-backed answers, or broad research coverage from one AIsa API key
 ---
 
 > Release note: This package is published for Claude Code. References to OpenClaw below describe the original source workflow, a companion runtime, or compatibility guidance unless the skill is explicitly about OpenClaw itself.
 
-# Multi-Source Search Verification Engine
+# Multi-source Search
 
-Compare multiple search surfaces in one pass and score how confident the result set looks before you synthesize it.
+Multi-source search for autonomous agents, powered by AIsa.
 
-## When to use
-
-- The user wants the same topic checked across multiple search surfaces instead of one provider.
-- The user needs confidence scoring, cross-source verification, or a consensus-style research output.
-- The user wants a growth-variant search lane focused on validation, not just lookup.
-
-## When NOT to use
-
-- The user only needs one flagship search entry for lookup, cited answers, or deep research; use `search`.
-- The task is provider-specific and fits `scholar-search`, `tavily-search`, or `perplexity-search`.
-- The workflow must avoid relay-based calls to `api.aisa.one`.
-
-## Capabilities
-
-- Parallel retrieval across structured web, scholar, smart search, Tavily, and Perplexity-backed flows.
-- Confidence scoring that highlights source coverage, diversity, and result quality.
-- Synthesis-ready outputs for research comparison, verification, and decision support.
-
-One API key gives you:
+Use this skill when you need one API surface for:
 - Structured web search
 - Scholar search
 - Hybrid scholar search
@@ -40,19 +21,16 @@ One API key gives you:
 
 ## Compatibility
 
-Works with any [agentskills.io](https://agentskills.io)-compatible
-harness, including:
+Works with any [agentskills.io](https://agentskills.io)-compatible harness, including:
 
-- **Claude Code** and **Claude** (Anthropic)
+- **Claude Code** and **Claude**
 - **OpenAI Codex**
 - **Cursor**
-- **Gemini CLI** (Google)
+- **Gemini CLI**
 - **OpenCode**, **Goose**, **OpenClaw**, **Hermes**
-- and any other harness that implements the [Agent Skills
-  specification](https://agentskills.io/specification)
+- Any other harness that implements the [Agent Skills specification](https://agentskills.io/specification)
 
-Requires Python 3, a POSIX shell, and `AISA_API_KEY` (get one at
-[aisa.one](https://aisa.one)).
+Requires Python 3, a POSIX shell, and `AISA_API_KEY` (available from [aisa.one](https://aisa.one)).
 
 ## What This Skill Is Best For
 
@@ -81,12 +59,6 @@ Use Sonar Deep Research to produce a thorough market map of AI browser agents.
 ```bash
 export AISA_API_KEY="your-key"
 ```
-
-## Example Requests
-
-- Compare how three search surfaces describe the latest browser-use agent products.
-- Verify whether a market claim shows up in web search, scholar search, and cited answer results.
-- Run a confidence-scored research pass on multi-agent IDEs before writing a recommendation.
 
 ## Search APIs
 
@@ -286,7 +258,7 @@ Use `messages` because the AIsa Perplexity endpoints are presented as "Ask AI" e
 
 ## Notes
 
-- `/search/full` and `/search/smart` are no longer documented here because you indicated those nodes have been retired.
+- `/search/full` and `/search/smart` are no longer documented here because those nodes have been retired.
 - The existing scholar and Tavily endpoints remain available.
 - `verity` still focuses on parallel retrieval from scholar, web, hybrid scholar, and Tavily sources.
 
